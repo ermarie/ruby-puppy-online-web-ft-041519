@@ -8,7 +8,7 @@ class Dog
     @name = name
     @@all << name
   end
-binding.pry
+
   def self.clear_all
     @@all.clear
   end
