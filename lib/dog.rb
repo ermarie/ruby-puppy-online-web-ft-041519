@@ -6,11 +6,11 @@ class Dog
 
   def instantiate(name)
     @name = name
-    @all << name
+    @@all << name
   end
 
   def clear_all
-    @all.clear
+    @@all.clear
   end
 
   def all
